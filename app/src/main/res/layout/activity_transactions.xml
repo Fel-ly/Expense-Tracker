@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Transactions">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="Transactions"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/matTbShopping"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#4D808482"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/matTbBills"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#4D808482"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/matTbWage"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#4D808482"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/matTbTransport"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#4D808482"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/matTbFood"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#4D808482"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/matTbLeisure"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#4D808482"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/matTbSubscription"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="#4D808482"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <TextView
+        android:id="@+id/tvShopping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="Shopping"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/tvBills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="Bills"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <TextView
+        android:id="@+id/tvWage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="Wage"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <TextView
+        android:id="@+id/tvTransport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="Transport"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <TextView
+        android:id="@+id/tvFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="Food"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <TextView
+        android:id="@+id/tvLeisure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="Leisure"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <TextView
+        android:id="@+id/tvSubscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="Subscription"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="609dp" />
+
+    <TextView
+        android:id="@+id/tvGrocery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Grocery"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:id="@+id/tvElectricity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Electricity"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:id="@+id/tvUpwork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Upwork"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/tvFuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Fuel"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/tvKFC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="KFC"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <TextView
+        android:id="@+id/tvBurudaniPark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Burudani Park"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <TextView
+        android:id="@+id/tvNetflix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Netflix"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+    <TextView
+        android:id="@+id/tv3k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="-KES 3,000"
+        android:textColor="#CD7F32"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="-KES 2,500"
+        android:textColor="#CD7F32"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="+KES 8,000"
+        android:textColor="#4D808482"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="-KES 3,000"
+        android:textColor="#CD7F32"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="-KES  2,400"
+        android:textColor="#CD7F32"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="-KES 2,500"
+        android:textColor="#CD7F32"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="-KES 1,500"
+        android:textColor="#CD7F32"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="149dp"
+        tools:text="08:00PM" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="216dp"
+        tools:text="09:00AM" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="285dp"
+        tools:text="06:00AM" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="351dp"
+        tools:text="05:00AM" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="496dp"
+        tools:text="07:00PM" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="566dp"
+        tools:text="11:00AM" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="635dp"
+        tools:text="08:00AM" />
+
+    <TextView
+        android:id="@+id/tvToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="Today"
+        android:textColor="#A9FFE4"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TextView
+        android:id="@+id/tvMay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="29th May 2024"
+        android:textColor="#A9FFE4"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="414dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
