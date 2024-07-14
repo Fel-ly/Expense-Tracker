@@ -39,7 +39,7 @@
         android:layout_height="100dp"
         android:layout_marginStart="45dp"
         android:layout_marginEnd="45dp"
-        android:background="?attr/colorPrimary"
+        android:background="@drawable/roundstyle"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
@@ -157,6 +157,7 @@
         tools:layout_editor_absoluteY="330dp" />
 
     <com.google.android.material.appbar.MaterialToolbar
+        android:backgroundTint="@color/pearl_white"
         android:id="@+id/matTbShopping"
         android:layout_width="100dp"
         android:layout_height="30dp"
@@ -167,6 +168,7 @@
         tools:layout_editor_absoluteY="367dp" />
 
     <com.google.android.material.appbar.MaterialToolbar
+        android:backgroundTint="@color/pearl_white"
         android:id="@+id/matTbLeisure"
         android:layout_width="100dp"
         android:layout_height="30dp"
@@ -177,6 +179,7 @@
         tools:layout_editor_absoluteY="422dp" />
 
     <com.google.android.material.appbar.MaterialToolbar
+        android:backgroundTint="@color/pearl_white"
         android:id="@+id/matTbBills"
         android:layout_width="100dp"
         android:layout_height="30dp"
@@ -187,6 +190,7 @@
         tools:layout_editor_absoluteY="422dp" />
 
     <com.google.android.material.appbar.MaterialToolbar
+        android:backgroundTint="@color/pearl_white"
         android:id="@+id/matTbFood"
         android:layout_width="100dp"
         android:layout_height="30dp"
@@ -197,6 +201,7 @@
         tools:layout_editor_absoluteY="422dp" />
 
     <com.google.android.material.appbar.MaterialToolbar
+        android:backgroundTint="@color/pearl_white"
         android:id="@+id/matTbTransport"
         android:layout_width="100dp"
         android:layout_height="30dp"
@@ -207,6 +212,7 @@
         tools:layout_editor_absoluteY="367dp" />
 
     <com.google.android.material.appbar.MaterialToolbar
+        android:backgroundTint="@color/pearl_white"
         android:id="@+id/matTbSubscription"
         android:layout_width="100dp"
         android:layout_height="30dp"
@@ -295,17 +301,18 @@
         tools:layout_editor_absoluteY="473dp" />
 
     <com.google.android.material.appbar.MaterialToolbar
+        android:backgroundTint="@color/mint"
         android:id="@+id/materialToolbar5"
         android:layout_width="60dp"
         android:layout_height="30dp"
-        android:background="?attr/colorPrimary"
+        android:background="@drawable/roundstyle"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         tools:layout_editor_absoluteX="326dp"
         tools:layout_editor_absoluteY="472dp" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/tvSeeAll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/inter"
@@ -313,8 +320,8 @@
         android:textColor="#000000"
         android:textSize="15sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="337dp"
-        tools:layout_editor_absoluteY="473dp" />
+        tools:layout_editor_absoluteX="331dp"
+        tools:layout_editor_absoluteY="481dp" />
 
     <com.google.android.material.appbar.MaterialToolbar
         android:backgroundTint="@color/greyy"
