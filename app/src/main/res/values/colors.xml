@@ -2,7 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="greyy">#FF808482</color>
+    <color name="grey">#FF808482</color>
+    <color name="greyy">#4D808482</color>
     <color name="mint">#FFA9FFE4</color>
     <color name="mint_darker">#B3A9FFE4</color>
     <color name="bronze">#FFCD7F32</color>
