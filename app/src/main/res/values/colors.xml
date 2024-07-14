@@ -4,6 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="greyy">#FF808482</color>
     <color name="mint">#FFA9FFE4</color>
+    <color name="mint_darker">#B3A9FFE4</color>
     <color name="bronze">#FFCD7F32</color>
     <color name="pearl_white">#FFF8F6F0</color>
 </resources>

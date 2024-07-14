@@ -71,7 +71,7 @@
         tools:layout_editor_absoluteY="99dp" />
 
     <com.google.android.material.appbar.MaterialToolbar
-        android:backgroundTint="@color/mint"
+        android:backgroundTint="@color/mint_darker"
         android:id="@+id/mtIncome"
         android:layout_width="150dp"
         android:layout_height="120dp"
